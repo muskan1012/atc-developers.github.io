@@ -9,7 +9,7 @@
       <script
          src="https://code.jquery.com/jquery-3.4.1.min.js"
          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-         crossorigin="anonymous"></script>
+              crossorigin="anonymous"></script>
    </head>
    <body class="main-background">
       <div class="black-text" id="main-body">
@@ -21,21 +21,67 @@
       // CHANGE HERE
       //
       //
-      const data = [{
-      	'name': 'Shashank Sharma',
-      	'message': 'This internet is flooded with cats !',
-      	'image_url': 'https://media.giphy.com/media/BSx6mzbW1ew7K/giphy.gif'
-      },
-                   {
-      	'name': 'Avani Gangrade',
-      	'message': 'The Lion King',
-      	'image_url': 'https://cdn.downtoearth.org.in/library/large/2019-01-16/0.15746200_1547629453_for-carousel_1.jpg'
+     
                     
-      {
+      const data = [{
       	'name': 'Swarup Hegde',
       	'message': 'Catto Everywhere !',
       	'image_url': 'https://media3.giphy.com/media/72DtXz1K8PTOw/source.gif'
       },
+      {
+      	'name': 'Shashank Sharma',
+      	'message': 'This internet is flooded with cats !',
+      	'image_url': 'https://media.giphy.com/media/BSx6mzbW1ew7K/giphy.gif'
+      },             
+      {
+      	'name': 'Rishabh raghuwanshi',
+      	'message': 'lion is king of jungle !',
+      	'image_url': 'https://giphy.com/gifs/lion-roar-Cou3eDclF0R32'
+      },
+      {
+      	'name': 'Avani Gangrade',
+      	'message': 'The Lion King',
+      	'image_url': 'https://cdn.downtoearth.org.in/library/large/2019-01-16/0.15746200_1547629453_for-carousel_1.jpg'
+      },
+      {
+      	'name': 'Prakhar',
+      	'message': 'lets give it a try!',
+      	'image_url': 'https://media.giphy.com/media/BSx6mzbW1ew7K/giphy.gif'
+      },
+      {
+      	'name': 'Rishi Soni',
+      	'message': 'The trouble with the rat is that even if you win, you are still a rat !',
+      	'image_url': 'https://media.tenor.com/images/d8547d861f0c76928037f1a3959ec649/tenor.gif'
+      },
+      {
+      	'name': 'payal',
+      	'message': 'This internet is flooded with cats !',
+      	'image_url': 'data:image/jpeg;base64,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'
+      },
+      	'name': 'Praksh Sharma',
+      	'message': 'This internet is flooded with cats !',
+      	'image_url': 'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwinnM2eht_kAhXc6nMBHWGnBIEQjRx6BAgBEAQ&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fcats&psig=AOvVaw3gcn2VuAQ8NZB-PBrUsCdf&ust=1569056806555600'
+      },
+      {
+      	'name': 'Pratigya Patidar',
+      	'message': 'This internet is flooded with cats !',
+      	'image_url': 'https://cdn.hswstatic.com/gif/pug.jpg'
+      },
+      {
+      	'name': 'Chetan patidar ',
+      	'message': 'how are you!',
+      	'image_url': 'https://www.google.com/search?safe=active&client=ms-android-oppo&tbm=isch&sxsrf=ACYBGNQhBEiSP3WxEsRaxSop79hq83ngqg%3A1568975588221&sa=1&q=image+&oq=image+&aqs=mobile-gws-lite..# '
+      },
+      {
+      	'name': 'sameekshamourya',
+      	'message': 'This internet is flooded with cats !',
+      	'image_url': 'https://media.giphy.com/media/BSx6mzbW1ew7K/giphy.gif'
+      },
+      {
+      	'name': 'khushi singh',
+      	'message': 'This internet is flooded with cats !',
+      	'image_url': 'https://media.giphy.com/media/BSx6mzbW1ew7K/giphy.gif'
+      }
      ]
       //
       
